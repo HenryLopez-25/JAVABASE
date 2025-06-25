@@ -19,16 +19,6 @@ public class CalculadoraSimple {
         System.out.println("Resta: " + resta);
 
 
-        // Multiplicacion
-        int Multiplicacion = a * b;
-        System.out.println("Multiplicacion: "+ Multiplicacion);
-
-
-
-
-
-
-
 
 
 
@@ -36,6 +26,13 @@ public class CalculadoraSimple {
 
 
         
+        //division
+        if (b!=0){
+            double resultado=a/b;
+            System.out.println("division "+ resultado);
+        }else{
+            System.out.println("No se puede dividir entre 0");
+        }
 
         scanner.close();
 
