@@ -19,7 +19,11 @@ public class CalculadoraSimple {
         System.out.println("Resta: " + resta);
 
 
+        //      Multiplicacion .
 
+
+        int mult = a*b;
+        System.out.println("Multiplicacion   : "+mult);
 
 
 
